@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/connectVci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="连接VCI"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/startScan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测汽油车!"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/startScan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测柴油车!"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/stopTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="结束检测!"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/setSingleDataStreamMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="读取单条数据流模式!"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/cancelSingleDataStreamMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消读取单条数据流模式"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/getDtc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取故障码"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/getIUPRMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取IUPR信息"
+                android:layout_margin="8dp"/>
+            <Button
+                android:id="@+id/getVinCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取VIN码"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/getECUInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取ECU信息"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/getSystemState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取系统就绪状态"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/diconnectVci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="断开连接"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
