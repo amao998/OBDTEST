@@ -19,5 +19,7 @@ public class MyPopupWindow extends PopupWindow{
         this.setContentView(mainview);
         this.setFocusable(true);
         this.setAnimationStyle(R.style.dialog_style);
+
+        String aa="";
     }
 }
