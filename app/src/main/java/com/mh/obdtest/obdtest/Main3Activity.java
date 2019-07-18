@@ -49,6 +49,7 @@ public class Main3Activity extends AppCompatActivity {
 
     private Button button11=null;
     private Button button12=null;
+    private Button button13=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
