@@ -20,7 +20,7 @@ public class MyPopupWindow extends PopupWindow{
         this.setFocusable(true);
         this.setAnimationStyle(R.style.dialog_style);
 
-        String VER="4";
+        String VER="5";
 
     }
 }
